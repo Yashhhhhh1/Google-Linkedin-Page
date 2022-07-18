@@ -1,0 +1,207 @@
+#profileContainer {
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+#backgroundImg {
+    height: 20vh;
+    min-height: 15vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10vh;
+}
+
+#profilePhoto {
+    position: absolute;
+    top: 18vh;
+    left: 2vw;
+    width: 8.3vw;
+    min-width: 90px;
+}
+
+#userDetails {
+    padding: 0 20px;
+}
+
+#userDetails h1 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+#userDetails>p:first-of-type {
+    font-weight: 400;
+}
+
+#userDetails p:last-of-type {
+    color: rgb(107, 106, 106);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#userDetails>a {
+    display: inline-block;
+    color: rgb(107, 106, 106);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#userDetails>a:hover {
+    text-decoration: underline;
+    color: #0073b1;
+}
+
+#connectOptions {
+    margin-bottom: 20px;
+}
+
+#followBtn,
+#websiteLink,
+#moreBtn {
+    padding: 5px 15px;
+    margin: 0 5px;
+    background-color: white;
+    outline: none;
+    border: 1px solid #0073b1;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0073b1;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#followBtn:hover {
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+#moreBtn {
+    color: gray;
+    border-color: gray;
+}
+
+#moreBtn:hover {
+    background-color: rgb(231, 228, 228);
+}
+
+#websiteLink {
+    background-color: #0073b1;
+}
+
+#websiteLink:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+#websiteLink a {
+    color: white !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#websiteLink a i {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#websiteLink a:visited {
+    color: #0073b1;
+}
+
+#links {
+    display: flex;
+    border-top: 1px solid lightgray;
+    width: 100%;
+}
+
+#links>li {
+    padding: 10px 15px;
+    list-style-type: none;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#links>li:hover {
+    color: black;
+}
+
+.active {
+    color: darkgreen !important;
+    border-bottom: 3px solid;
+    font-weight: 700 !important;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+    #backgroundImg {
+        margin-bottom: 0;
+        height: 10vh;
+    }
+
+    #profilePhoto {
+        position: static;
+        min-width: 90px;
+    }
+    
+    #links{
+        margin: 0;
+    }
+    
+    #links>li {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #backgroundImg {
+        margin-bottom: 0;
+    }
+
+    #profilePhoto {
+        position: static;
+        margin-left: 10px;
+    }
+
+    #links>li {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+
+    #backgroundImg {
+        margin-bottom: 10vh;
+    }
+
+    #profilePhoto {
+        position: absolute;
+        top: 12vh;
+        left: 2.2vw;
+        min-width: 90px;
+    }
+
+    #links>li {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+}
+
+

@@ -1,0 +1,29 @@
+#mainContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#profileContainer {
+  width: 60vw;
+  height: auto;
+  margin: 30px 10px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 0;
+}
+
+
+@media only screen and (max-width: 425px) {
+
+  #mainContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #profileContainer {
+    width: 100%;
+    margin: 30px 0;
+  }
+}

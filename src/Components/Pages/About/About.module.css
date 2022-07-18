@@ -1,0 +1,43 @@
+#overviewContainer{
+    width: 100%;
+    margin: 30px 0;
+    padding: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#overviewContainer h1{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#overviewContainer p{
+    font-size: 14px;
+    color: gray;
+}
+
+#overviewContainer>p:last-child{
+    margin-bottom: 20px;
+}
+
+#overviewContainer>div{
+    margin: 10px 0;
+}
+
+#overviewContainer>div>h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#overviewContainer>div>a{
+    font-size: 14px;
+    color: #0073b1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#overviewContainer>div>a:hover{
+    text-decoration: underline;
+}

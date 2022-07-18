@@ -1,0 +1,112 @@
+#sideBarContainer{
+    width: 320px;
+    margin: 30px 10px;
+}
+
+#affiliatedPagesContainer, #viewedPagesContainer{
+    padding: 15px 0 0;
+    background-color: white;
+    margin: 0 0 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+#affiliatedPagesContainer>h2, #viewedPagesContainer>h2{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pages{
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.pages:last-of-type{
+    border: none;
+}
+
+.pages>span{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.pages>span:hover{
+    text-decoration: 1px underline #0073b1;
+}
+
+.pages>span>img{
+    height: 50px;
+    margin: 8px 20px 0 0;
+}
+
+.pages>span>span>h2{
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+
+.pages>span>span>p{
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+}
+
+.pages>span>span>p:nth-last-child(2){
+    color: gray;
+    margin: 3px 0 15px;
+}
+
+#followBtn{
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: rgb(78, 78, 78);
+    background-color: white;
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+#followBtn:hover{
+    background-color: lightgray;
+}
+
+#followBtn>i{
+    color: rgb(63, 63, 63);
+}
+
+#allBtn{
+    display: block;
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+    border-top: 1px solid lightgray;
+    border-radius: 0 0 10px 10px;
+    transition: all ease .2s;
+}
+
+#allBtn:hover{
+    background-color: lightgray;
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    #sideBarContainer{
+        width: 100%;
+        margin: 0;
+    }    
+
+}

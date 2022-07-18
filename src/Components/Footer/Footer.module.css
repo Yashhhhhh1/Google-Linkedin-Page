@@ -1,0 +1,162 @@
+#footer {
+    width: 80%;
+    margin: 0 auto ;
+}
+
+#logo {
+    height: 65px;
+    margin: 0 10px;
+}
+
+#footer>div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#footer>div ul,
+#footer>div>div {
+    min-width: 120px;
+    margin: 10px 10px 0;
+    padding: 0 10px;
+}
+
+#footer>div ul li {
+    list-style-type: none;
+    font-size: 12px;
+    color: grey;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#footer>div ul li:hover {
+    color: rgb(55, 83, 211);
+    text-decoration: 1px underline;
+}
+
+#footer>div>div>div {
+    padding: 5px 0;
+}
+
+#footer>div>div>div>span>strong {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: gray;
+}
+
+#footer>div>div>div>span>strong:hover {
+    color: rgb(55, 83, 211);
+    text-decoration: 1px underline;
+}
+
+#footer>div>div>div>i {
+    color: gray;
+    margin-right: 10px;
+}
+
+#footer>div>div>div>span>p {
+    font-size: 12px;
+    color: gray;
+    margin-left: 25px;
+}
+
+#footer>p {
+    color: gray;
+    font-size: 12px;
+    margin: 15px 10px;
+    padding: 0 5px;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    #footer {
+        width: 100%;
+    }
+
+    #logo {
+        height: 55px;
+    }
+
+    #footer > div {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #footer>div ul,
+    #footer>div>div {
+        min-width: 120px;
+        margin: 0 5px 0;
+    }
+
+    #footer>div ul li {
+        padding: 5px;
+    }
+
+    #footer>p {
+        margin: 5px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 376px) {
+
+    #footer {
+        width: 90%;
+    }
+
+    #footer > div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #footer>div ul,
+    #footer>div>div {
+        min-width: 120px;
+        margin: 10px 10px 0;
+    }
+
+    #footer>div ul li {
+        padding: 5px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    #footer {
+        width: 90%;
+    }
+
+    #footer > div {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    #footer>div ul,
+    #footer>div>div {
+        min-width: 120px;
+        margin: 10px 10px 0;
+    }
+
+    #footer>div ul li {
+        padding: 5px 10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    #footer > div {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
+
